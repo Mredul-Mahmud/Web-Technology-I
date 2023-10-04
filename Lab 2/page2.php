@@ -11,7 +11,9 @@
 </body>
 </html>
 <?php
-$FirstName = $_REQUEST['FirstName'];
+ if(isset($_REQUEST['submit']))
+ {
+    $FirstName = $_REQUEST['FirstName'];
 $LastName = $_REQUEST['LastName'];
 $FatherName = $_REQUEST['FatherName'];
 $MotherName = $_REQUEST['MotherName'];
@@ -44,6 +46,7 @@ echo "
                                <p><b>&nbsp;&nbsp;&nbsp;Last Name &nbsp;&nbsp;&nbsp;&nbsp;:</b> $LastName</p>
                                <p><b>Father's Name&nbsp;&nbsp;:</b>$FatherName</p>
                                <p><b>Mother's Name&nbsp;:</b>$MotherName</p>
+                               <p><b>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>$Gender</p>
                                <p><b>&nbsp;&nbsp;&nbsp;Blood Group&nbsp;&nbsp;:</b>$BloodGroup</p>
                                <p><b>&nbsp;&nbsp;&nbsp;Religion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>$Religion</p>
                 
@@ -77,4 +80,10 @@ echo "
 
     </table>
 ";
+
+ }
+ else{
+    echo "Fillup every form Properly";
+ }
+
 ?>
