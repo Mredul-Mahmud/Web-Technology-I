@@ -1,0 +1,267 @@
+/* .Footerdiv{
+  position: absolute;
+  bottom: 0px;
+} */
+---------------------------------------------------------------------------------------------------------------------------------------------------
+/* Setting */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Footer */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#Fheader {
+  background-color: #52595d;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  
+}
+#Fbody{
+ 
+
+  width : 100%;
+    margin: 0;
+    
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position : absolute;
+    bottom: 0, auto;
+
+} 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* Header */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+#Hbody {
+    width : 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position : absolute;
+   
+  }
+
+  #Hheader {
+    background-color: #52595d;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #Hhead {
+    margin: 0;
+    
+  }
+
+  #Hnav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+  }
+
+  .Hlink {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .Hlink:hover {
+    background-color: #376491;
+  }
+  #icon{
+    height : 70px;
+    width : 70px;
+    margin-top: 10px;
+    position: absolute;
+    left: 40px;
+  }
+  #icons{
+    margin : 20px;
+    position: absolute;
+    left: 250px;
+
+  }
+  .logo{
+    width:40px;
+    height:40px;
+    padding : 5px;
+
+  }
+  #logoutic{
+    width:40px;
+    height:40px;
+    position: absolute;
+   
+    right: 10px;
+
+  }
+  #logoutp{
+    position: absolute;
+   text-decoration: none;
+   color : white;
+    right: 10px;
+    margin-top: 10px;
+   
+  }
+  #number{
+    font-size: 25px;
+   color :rgb(176, 193, 209);
+    position: absolute;
+    margin-top: 25px;
+    right: 300px;
+  }
+
+  /* --------------------------------------------------------------------------------------------------------------------
+                                          Dashboard */
+
+    .Body{
+        background-color: #425864;
+    
+    }
+    .btnA{
+      background-color: #1c94d4;
+      color: white;
+      padding: 30px 30px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      border-radius: 20px;
+  
+    
+  
+    }
+    .DDref{
+        width: 100%;
+        border: #52595d;
+        box-shadow: #52595d;
+        color:rgb(176, 228, 228);
+        text-decoration: none;
+    }
+    .menubar{
+        list-style: none;
+        text-decoration: none;
+        position : fixed;
+        top: 100px;
+        right: 0;
+        height : 100vh;
+        width: 300px;
+        z-index : 999;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        box-shadow :  -10px 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+      
+    }
+    .DDli{
+        margin-top: 10px;
+        text-decoration: none;
+        width: 100%;
+    }
+    #DDl{
+        list-style: none;
+        text-decoration: none;
+        width: 100%;
+    }
+    #DDlogo{
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        right: 15px;
+        margin-top: 15px;
+    }
+   
+    
+    #menu{
+        top: 0px;
+        margin-right: 60px;
+        font-size: 25px;
+        color: #464e52;
+        position: fixed;
+        right: 30px;
+
+
+    }
+/* --------------------------------------------------------------------------------------------- */
+    .PersonalInfoField {
+      width: 330px;
+      padding: 10px;
+      margin-left: 30px;
+      margin-bottom: 10px;
+      border: 1px solid #620454;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    
+    .PersonalInfoBody {
+    
+      background-color: #425864;
+     
+    
+    }
+    .PersonalInfoForm{
+      height: 90%;
+       width:50%;
+       align-items: center;
+       color: #603333; 
+       align-items: center;
+
+       background-color: rgba(255, 255, 255, 0.2);
+       backdrop-filter: blur(10px);
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       max-width: 600px;
+       margin-left: 400px;
+       margin : 20px auto;
+       
+   
+     }
+     #profilediv{
+      height: 90%;
+       width:50%;
+       align-items: center;
+       color: #603333; 
+       align-items: center;
+
+       background-color: rgba(255, 255, 255, 0.2);
+       backdrop-filter: blur(10px);
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       max-width: 600px;
+       margin-left: 400px;
+       margin : 20px auto;
+
+     }
+     .btn {
+      background: linear-gradient(to right, #920e19, rgb(167, 72, 9));
+font-size: 16px;
+    color: #cfafaf;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+     }
+     #shopH{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+     }
+     #shopHeader{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+     }
